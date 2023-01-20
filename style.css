@@ -21,3 +21,17 @@ body{
     top: 0;
     right: 0;
 }
+
+
+
+
+/* Media Query */
+
+@media screen and (max-width: 767px) {
+    .toast-section{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        /* width: 100%; */
+    }
+}
