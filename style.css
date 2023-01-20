@@ -73,6 +73,14 @@ body{
 /* Media Query */
 
 @media screen and (max-width: 767px) {
+    .banner-img-container{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-img-container .banner-img{
+        height: 50vh;
+    }
+    
     .toast-section{
         position: absolute;
         top: 5%;
@@ -93,4 +101,6 @@ body{
     .moment-title{
         font-size: 20px;
     }
+
+
 }
