@@ -1,0 +1,23 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.toast-section{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
+
+.price-section #price{
+    margin-top: -3%;
+}
+.price-section .price-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
