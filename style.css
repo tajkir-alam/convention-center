@@ -22,6 +22,51 @@ body{
     right: 0;
 }
 
+/* Fonts Color and Size section */
+.navbar .nav-title{
+    font-weight: 700;
+    font-size: 22px;
+}
+.nav-item .menu-txt{
+    font-weight: 500;
+    color: #3E3E3E;
+}
+.carousel-container .banner-title{
+    font-weight: 600;
+    font-size: 48px;
+}
+.carousel-container .banner-description{
+    font-weight: 300;
+    opacity: 0.8;
+    font-size: 14px;
+}
+.carousel-container .btn-primary{
+    color: #3F87F5;
+}
+.moment-title{
+    color: #0A0826;
+    font-weight: 700;
+    font-size: 38px;
+}
+.moment-description{
+    color: #6C6C6C;
+    font-weight: 700;
+}
+.btn-secondary{
+    background-color: #3F87F5;
+    font-weight: 700;
+}
+.toast-txt{
+    font-weight: 500;
+    font-size: 14px;
+    color: #505050;
+}
+.section-title{
+    font-weight: 600;
+    font-size: 38px;
+    color: #0A0826;
+}
+
 
 
 
@@ -33,5 +78,19 @@ body{
         top: 5%;
         left: 5%;
         /* width: 100%; */
+    }
+    .price-section #price{
+        margin-top: 50px;
+    }
+
+    /* font size */
+    .navbar .nav-title{
+        font-size: 14px;
+    }
+    .carousel-container .banner-title{
+        font-size: 24px;
+    }
+    .moment-title{
+        font-size: 20px;
     }
 }
